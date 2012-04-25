@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+---
+<div id="welcome">
+<p>This is another try to build up a website. This could be a think
+tank, knowledge base and something more.</p>
+</div>
+<p>
+The last recent blog posts:
+{{ site | tag<sub>cloud</sub> }}
+<div id="postlist">
+{% for post in site.posts limit: 10 %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>({{ post.date | date:"%d.%m.%Y" }}) {{ post.excerpt }}<br/>
+  <a class="more" href="{{ post.url }}">klick to read more</a></p>
+{% endfor %}
+</div>
+</p>

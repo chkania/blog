@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+{% if page.tags contains 'en' %}
+<html lang="en">
+{% else %}
+<html lang="de">
+{% endif %}
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Christoph Kania" />
+    <meta name="generator" content="jekyll">
+    <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="/css/socialshareprivacy.css" type="text/css" />
+    <script type="text/javascript" src="/js/jquery.js"></script> 
+    <script type="text/javascript" src="/js/jquery.socialshareprivacy.js"></script>
+ <script type="text/javascript">
+      jQuery(document).ready(function($){
+        if($('#socialshareprivacy').length > 0){
+          $('#socialshareprivacy').socialSharePrivacy({
+            services: {
+              twitter: {
+                'status' : 'on',
+                 'tweet_text': '{{page.title}} - http://www.chkania.net'
+{% if page.tags contains 'en' %}
+,
+                'txt_info' : '2 clicks for your data privacy: Not \
+                 before you click here the button will be active. In the moment of \
+                 activation there will be data communication to other parties &ndash; \
+                 see <em>i</em>.'
+{% endif %}
+              },
+              facebook: {
+                'status' : 'off',
+{% if page.tags contains 'de' %}
+               'language' : 'de_DE'
+{% else %}
+                'language' : 'en_US',
+                'txt_info' : '2 clicks for your data privacy: Not \
+                 before you click here the button will be active. In the moment of \
+                 activation there will be data communication to other parties &ndash; \
+                 see <em>i</em>.'
+{% endif %}
+              },
+              gplus: {
+                'status' : 'on'
+{% if page.tags contains 'en' %}
+,
+                'txt_info' : '2 clicks for your data privacy: Not \
+                 before you click here the button will be active. In the moment of \
+                 activation there will be data communication to other parties &ndash; \
+                 see <em>i</em>.',
+                 'language' : 'en'
+{% endif %}
+              }
+            },
+{% if page.tags contains 'de' %}
+            // 'txt_help' : 'Das ist der Hilfetext'
+{% else %}
+            'txt_help' : 'If you activate these areas with a click \
+            some information will be delivered to Facebook, Twitter or \
+            Google in the USA. Possibly they would be saved there.',
+            'settings_perma' : 'Activate permanently and approve data communication:'
+{% endif %}
+          }); 
+        }
+      });
+      </script>
+<script type="text/javascript">
+/* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */</script>
+    <link rel="alternate" type="application/rss+xml" title="Christoph Kania - all articles" href="http://www.chkania.net/feed.xml" />
+    <title>Christoph Kania - {{page.title}}</title>
+  </head>
+
+
+<body>
+<div id="container">
+	<div id="banner" ><h1><a href="/">Christoph Kania - braindump</a></h1>
+	</div>
+	<div id="right">
+
+		<ul id="navigation">
+		  <li><a href="/">Home</a></li>
+		  <li><a href="/tech/index.html">Tech-Blog</a></li>
+		  <li><a href="/live/index.html">Live-blog</a></li>
+		  <li><a href="/info/about.html">About</a></li>
+		</ul>
+
+		<p><a href="https://twitter.com/skyb" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @skyb</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+		<p><a href="http://www.xing.com/profile/Christoph_Kania" target="_blank" rel="me"><img src="http://www.xing.com/img/buttons/1_de_btn.gif" width="85" height="23" alt="Christoph Kania"></a></p>
+		<p><a
+		href="http://de.linkedin.com/in/christophkania"><img
+		src="http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png"
+		width="80" height="15" border="0" alt="View Christoph
+		Kania's profile on LinkedIn"></a></p>
+
+
+		
+	</div>
+	
+	<div id="content">
+	  {{content}}	
+	</div>
+	<div id="footer">
+	  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">work</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Christoph Kania</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+	</div>
+</div>
+</body>
+</html>

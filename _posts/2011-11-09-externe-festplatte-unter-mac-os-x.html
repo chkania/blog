@@ -1,0 +1,23 @@
+---
+layout: post
+title: externe Festplatte unter Mac OS X verschlüsseln
+author: Christoph Kania
+date: 2011-11-09
+category: tech
+tags: mac security de
+comments: true
+flattr: true
+excerpt: Die lokale Festplatte lässt sich mit einem Klick verschlüsseln. Wie dies jedoch für externe Laufwerke funktioniert, erläutert dieser Beitrag.
+---
+
+Ein von mir sehr geschätztes neues Feature von Mac OS X Lion ist FileVault 2. Da ich aber auch regelmäßig mit einer externen Platte unterwegs bin, möchte ich auch hier meine Daten sicher verwahrt wissen. Aufsätze wie TrueCrypt oder ein mit Bordmitteln verschlüsseltes Image fand ich nicht so elegant
+
+Es geht aber auch "richtig":
+Zunächst einmal muss die zu verschlüsselnde Partition mit einer GUID-Partitionstabelle versehen sein. Also das Festplattendienstprogramm starten und die Partition neu mit der entsprechenden Option formatieren.<br /><br />
+
+<a href="http://2.bp.blogspot.com/-1AWTH7UQ1Os/TrpTC7U67qI/AAAAAAAAB2Q/iwWSzkWuq3s/s1600/Partitionstabelle.png" imageanchor="1" style=""><img border="0" height="307" width="400" src="http://2.bp.blogspot.com/-1AWTH7UQ1Os/TrpTC7U67qI/AAAAAAAAB2Q/iwWSzkWuq3s/s400/Partitionstabelle.png" /></a>
+
+Ist die Formatierung abgeschlossen, geht es an das Verschlüsseln. Hierzu im Terminal mit <i>sudo su -</i> als Benutzer root anmelden und den folgenden Befehl eingeben:
+<i>diskutil cs convert /Volumes/FOO -passphrase</i>
+Nach zweimaliger Eingabe des Passwortes startet die Verschlüsselung. Da diese, je nach Größe des Volumes, mehr oder weniger Zeit benötigt, interessiert eventuell der Fortschritt. Dieser lässt sich über <i>diskutil coreStorage list</i> abrufen.
+<a href="http://3.bp.blogspot.com/-wwzMqQfaZLM/TrpURlLkhyI/AAAAAAAAB2c/Q4h6AiK3khU/s1600/statusKonvertierung.png" imageanchor="1" style=""><img border="0" height="212" width="400" src="http://3.bp.blogspot.com/-wwzMqQfaZLM/TrpURlLkhyI/AAAAAAAAB2c/Q4h6AiK3khU/s400/statusKonvertierung.png" /></a>

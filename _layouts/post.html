@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div id="blindspace">&nbsp;</div>
+  <h2>{{page.title}}</h2>
+  <div id="post-author">{{page.date | date:"%d.%m.%Y"}} - {{page.author}}</div>
+  <div id="post-excerpt">
+    {{ page.excerpt | markdownify }}
+  </div>
+  <div id="post-content">
+    {{ page.content | markdownify}}
+  </div>
+  <div id="post-footer">
+    <div>Tags: {% for tag in page.tags %} {{tag}} {% endfor %}</div>
+    {% if page.flattr %}
+    <div id="flattr-footer"><a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://chkania.net"></a>
+<noscript><a href="http://flattr.com/thing/642469/Christoph-Kania" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png"
+    alt="Flattr this" title="Flattr this" border="0" /></a></noscript></div>
+    {% endif %}
+    <div id="socialshareprivacy"></div>
+  </div>
+  
+    {% if page.comments %}
+<div id="comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'chkania'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+    {% endif %}
+

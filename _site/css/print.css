@@ -1,0 +1,227 @@
+/* *** css by miss monorom www.intensivstation.ch *** */
+/* css released under Creative Commons License -  http://creativecommons.org/licenses/by/2.0/deed.en  */
+
+body {
+background-color: #FFFFFF !important;
+font-size: 10pt;
+font-family: Georgia, Palatino, 'Palatino Linotype', FreeSerif, serif;
+color: #000000 !important;
+padding :0px;
+margin: 0px;
+}
+
+a {color: #993300; text-decoration: none; content: " ("attr(href)")";}
+a:visited {color: #993300; text-decoration: none; content: " ("attr(href)")";}
+a:hover {color: #993300; text-decoration: none; content: " ("attr(href)")";}
+a:active { color: #993300; text-decoration: none; content: " ("attr(href)")";}
+
+
+h1 {
+font-size: 2em;
+font-weight: normal;
+font-family: Arial,Helvetica,FreeSans,sans-serif;
+background-color: #D8D8D8;
+border-top:1px solid silver;
+border-bottom:1px solid silver;
+padding:5px 15px;
+margin:0px
+}
+
+h2 {
+font-size: 1.4em;
+font-weight: normal;
+font-family: Arial,Helvetica,FreeSans,sans-serif;
+margin-top: 10px;
+margin-bottom: 0px;
+padding:5px 10px;
+}
+
+div#blindspace {
+    margin-top: 0px;
+    height: 0px;
+}
+
+h3 {
+font-size: 1.2em;
+font-weight: normal;
+font-family: Arial,Helvetica,FreeSans,sans-serif;
+margin-bottom: 0px;
+margin-top: 5px;
+padding:5px 10px;
+}
+
+h4 {
+font-size: 1em;
+font-weight: normal;
+font-family: Arial,Helvetica,FreeSans,sans-serif;
+padding:5px 10px;
+margin-bottom: 0px;
+}
+
+img.download {vertical-align:middle;}
+
+/* ----------container zentriert das layout-------------- */
+#container {
+margin-bottom: 10px;
+page-break-after:avoid;
+}
+
+/* ----------banner for logo-------------- */
+#banner {
+background-color: #D8D8D8;
+text-align: center;
+padding: 0px;
+margin: 0px;
+}
+
+#banner a:link {
+color: #404040;
+text-decoration: none;
+}
+
+#banner a:visited {
+color: #404040;
+text-decoration: none;
+}
+
+#banner a:active {
+color: #404040;
+text-decoration: none;
+}
+
+#banner a:hover {
+color: #404040;
+text-decoration: none;
+}
+
+#banner img {padding:10px 0px;} 
+
+/* -----------------Inhalt--------------------- */
+
+#content { 
+line-height: 1.3;
+page-break-after:avoid;
+}
+
+#postlist a:link {
+    text-decoration: none;
+    color: #404040;
+}
+
+#postlist a:visited {
+    text-decoration: none;
+    color: #404040;
+}
+
+#postlist a:active {
+    text-decoration: none;
+    color: #404040;
+}
+
+#postlist a:hover {
+    text-decoration: none;
+    color: #404040;
+}
+
+#post-excerpt {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#post-author, #post-footer {
+    font-size: 0.8em;
+    padding: 5px 10px;
+}
+
+#post-footer {
+    margin-top: 10px;
+    border-top: 1px solid silver;
+    page-break-after:avoid;
+}
+
+#flattr-footer {
+    display: none;
+}
+
+#post-content a:link {
+    text-decoration: none;
+    color: #993300;
+    content: " ("attr(href)")";
+}
+
+#post-content a:visited {
+    text-decoration: none;
+    color: #993300;
+    content: " ("attr(href)")";
+}
+
+#post-content a:active {
+    text-decoration: none;
+    color: #993300;
+    content: " ("attr(href)")";
+}
+
+#post-content a:hover {
+    text-decoration: none;
+    color: #993300;
+    content: " ("attr(href)")";
+}
+
+.more {
+    display: none;
+    page-break-after:avoid;
+}
+
+p, pre {
+padding: 5px 10px;
+margin:0px;
+}
+
+table, code {
+    margin-left: 10px;
+}
+
+/* --------------right navigavtion------------- */
+#right {
+display: none;
+}
+
+
+/* -----------footer--------------------------- */
+#footer {
+background-color: #D8D8D8;
+clear: both;
+margin: 0px;
+padding: 2px;
+text-align: center;
+font-size: 0.8em;
+page-break-before:avoid;
+}
+
+#footer a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+    color: #993300;
+}
+
+#footer a:visited {
+    text-decoration: none;
+    color: #993300;
+}
+
+#footer a:active {
+    text-decoration: none;
+    color: #993300;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color: #993300;
+}
+
+#socialshareprivacy {
+    display: none;
+}
+
+#comments {
+    display: none;
+}
