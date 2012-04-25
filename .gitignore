@@ -1,0 +1,22 @@
+_site/
+_compiled/
+_cache/
+bin/
+tmp/
+docs/
+.svn/
+.hg
+.svn
+CVS
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+
+# Mac OS X Finder
+.DS_Store
+*.DS_Store
+Thumbs.db
+*~
+\#*
+.\#*
