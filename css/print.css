@@ -143,10 +143,15 @@ page-break-after:avoid;
     display: none;
 }
 
-#post-content a:link {
+#post-content a:link:after {
     text-decoration: none;
     color: #993300;
     content: " ("attr(href)")";
+
+}
+
+#post-content a[href^="/"]:after {
+    content: "(http://chkania.net" attr(href)")"; }
 }
 
 #post-content a:visited {
