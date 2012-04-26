@@ -5,9 +5,15 @@
 <html lang="de">
 {% endif %}
   <head>
+    <title>Christoph Kania - {{page.title}}</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Christoph Kania" />
-    <meta name="generator" content="jekyll">
+    <meta name="generator" content="jekyll" />
+{% if page.excerpt %}
+    <meta name="description" content="{{page.excerpt}}" />
+{% else %}
+    <meta name="description" content="This is another try to build up a website. It could be a think tank, knowledge base and something more." />
+{% endif %}
     <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
     <link rel="stylesheet" href="/css/socialshareprivacy.css" type="text/css" />
@@ -91,7 +97,6 @@
 </script>
 {% endif %}
     <link rel="alternate" type="application/rss+xml" title="Christoph Kania - all articles" href="http://www.chkania.net/feed.xml" />
-    <title>Christoph Kania - {{page.title}}</title>
   </head>
 
 
