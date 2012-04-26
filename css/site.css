@@ -159,6 +159,8 @@ border-right: 1px solid silver;
 #post-content a:link {
     text-decoration: none;
     color: #993300;
+    padding-right: 12px;
+    background: transparent url(/img/link.png) no-repeat center right;
 }
 
 #post-content a:visited {
