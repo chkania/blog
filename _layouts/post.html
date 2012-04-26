@@ -11,7 +11,19 @@ layout: default
     {{ page.content | markdownify}}
   </div>
   <div id="post-footer">
-    <div>Tags: {% for tag in page.tags %} {{tag}} {% endfor %}</div>
+    <div>Tags: {% for tag in page.tags %} {{tag}} {% endfor %}</div><br/>
+    <div>
+      {% if page.tags contains 'en' %}
+      Other Posts:
+      {% else %}
+      Andere Beiträge:
+      {% endif %}
+      <ul>
+      {% for post in site.related_posts limit: 3 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul>
+      </div>
     {% if page.flattr %}
     <div id="flattr-footer"><a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://chkania.net"></a>
 <noscript><a href="http://flattr.com/thing/642469/Christoph-Kania" target="_blank">

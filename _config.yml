@@ -5,6 +5,7 @@ pygments:    true
 markdown:    maruku
 permalink:   date
 url:          http://chkania.net
+lsi:	     true
 maruku:
   use_tex:    false
   use_divs:   true
