@@ -4,10 +4,6 @@ permalink:   pretty
 pygments:    true
 markdown:    maruku
 permalink:   date
-url:          http://chkania.net
+locale:	     en
+url:	     "http://chkania.net"
 lsi:	     true
-maruku:
-  use_tex:    false
-  use_divs:   true
-  png_dir:    images/latex
-  png_url:    /images/latex
