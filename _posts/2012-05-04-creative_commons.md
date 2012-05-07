@@ -15,3 +15,9 @@ In these days the blogger's conference [re:publica] (http://www.re-publica.de/12
 Many blogs are published under a variant of [Creative Commons] (http://www.creativecommons.org). And most of them refer to a "non commercal" (NC) clause. But it might be a better decision to choose a variant which allows commercial use but requires from the author, to publish his new work under the same license (["CC BY-SA"] (http://creativecommons.org/licenses/?lang=en)).
 
 For that reason Wikimedia, irights.info and Creative Commons Deutschland published a [brochure] (http://www.wikimedia.de/images/a/a2/IRights_CC-NC_Leitfaden_web.pdf) (in German language) to clear up the NC clause.
+
+**Ressources**
+* [posting on creativecommons.org](http://de.creativecommons.org/2012/05/04/ungewollte-nebenwirkungen-von-nc-erklart/)
+* [article on heise.de](http://www.heise.de/open/meldung/re-publica-Creative-Commons-mit-Nebenwirkungen-1567568.html)
+* [brochure as PDF](http://www.wikimedia.de/images/a/a2/IRights_CC-NC_Leitfaden_web.pdf)
+
