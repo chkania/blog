@@ -17,6 +17,6 @@ Today I [found](http://www.aptgetupdate.de/2012/05/08/minimalist-clock-screensav
 
 ![screenshot from screensaver](http://chkania.net/img/posts/minimalist_clock_screensaver.png)
 
-** Ressources **
+**Ressources**
 
 *  [my primary source APTGETUPDATE\[DE\]](http://www.aptgetupdate.de/2012/05/08/minimalist-clock-screensaver-fr-den-mac/)
