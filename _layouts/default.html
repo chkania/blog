@@ -26,7 +26,7 @@
             services: {
               twitter: {
                 'status' : 'on',
-                 'tweet_text': '{{page.title}} - http://www.chkania.net'
+                 'tweet_text': '{{page.title}} - {{site.url}}'
 {% if page.tags contains 'en' %}
 ,
                 'txt_info' : '2 clicks for your data privacy: Not \
@@ -132,7 +132,7 @@
 	  {{content}}	
 	</div>
 	<div id="footer">
-	  <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="chkania.net" property="cc:attributionName" rel="cc:attributionURL">Christoph Kania</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+	  <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="{{site.url}}" property="cc:attributionName" rel="cc:attributionURL">Christoph Kania</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
 	</div>
 </div>
 <!-- Piwik --> 

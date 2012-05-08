@@ -4,6 +4,7 @@ permalink:   pretty
 pygments:    true
 markdown:    maruku
 permalink:   date
-locale:	     en
-url:	     "http://chkania.net"
-lsi:	     true
+locale:      en
+lsi:         true
+url:         http://chkania.net
+postimgurl:  http://chkania.net/img/posts
