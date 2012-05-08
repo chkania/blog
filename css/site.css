@@ -178,6 +178,12 @@ border-right: 1px solid silver;
     color: #993300;
 }
 
+#post-content .leftfloat {
+    float: left;
+    margin: 4px;
+    display: inline-block;
+}
+
 .more {
     font-size: 0.8em;
     font-style: italic;
