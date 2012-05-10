@@ -28,7 +28,7 @@ description: About tech and live
 					   <p>{{post.excerpt}}</p>
 					   {{post.content}}
 
-					   <p><a hre="{{site.url}}{{post.url}}">Read original article and read the comments</a></p>
+					   <p><a hre="{{site.url}}{{post.url}}">Read original article and explore the comments</a></p>
 
 <p><a href="http://flattr.com/thing/642469/Christoph-Kania" target="_blank">
 <img src="http://api.flattr.com/button/flattr-badge-large.png"
