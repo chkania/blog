@@ -1,0 +1,80 @@
+---
+layout: post
+title: Native vs. hybrid vs. web applications on mobile devices
+author: Christoph Kania
+date: 2012-05-09
+published: true
+flattr: true
+comments: true
+category: tech
+tags: [en, iOS, Android]
+excerpt: "There are three different ways to implement an app for iOS: native, hybrid and web. In this article I give a brief overview."
+---
+
+The classical and mostly known way to build applications for mobile 
+devices is to code them in Objective-C (iOS), Java (Android) or whatever. This means:
+<ul>
+  <li>You can use the complete API provided by the manufacturer.</li>
+  <li>It will run very smooth.</li>
+  <li>But it will run only on the specific platfrom.</li>
+  <li>You are bound to Apple's App Store, Googles Playstore or other supported methods of delivery (for initial sales and future updates).</li>
+  <li>You can use services (distribution, payment etc.) that comes with these marketplaces.</li>
+</ul>
+
+Another way to open your functionality to mobile devices is a web app.
+<ul>
+  <li>It is created with HTML(5), CSS, JavaScript -> standard technology.</li>
+  <li>You can use it with multiple platforms (iOS, Android etc.).</li>
+  <li>Distribute them as a regular website: just send a link.</li>
+  <li>But you cannot access hardware functions of the device (like camera, GPS etc.).</li>
+  <li>In most cases web apps are less costly to develop.</li>
+</ul>
+
+To close the gap between the two variants there is a third one: hybrid. Hybrid apps contains of a native part and a web part. This means you have to deploy the native part on the device (over the already mentioned channels). The web part runs on external (from the device's point of view) servers on the net and can be managed independent from the manufacturers universe. In some cases HTML files (and reffered ressources) are embedded within the hybrid part to access them without any need of
+internet connection.
+
+To make use of the API features there is a handfull of frameworks. One of these is the Open Source project <a href="http://phonegap.com">PhoneGap</a>.
+
+<div class="imagecenter" style="width:474px;"><img width="474" src="http://chkania.net/img/posts/features-phonegap.png" alt="Screenshot PhoneGab feature matrix" /><br />
+PhoneGab feature matrix</div>
+
+<h3>Some expamples</h3>
+
+<h4>Hybrid</h4>
+<ul>
+  <li><a target="_blank" href="http://itunes.com/apps/googlemail">Google Mail</a></li>
+  <li><a target="_blank" href="http://itunes.com/apps/gpsnavigation2skobbler">Skobbler Navigation</a></li>
+  <li><a target="_blank" href="http://itunes.com/apps/christies">Christie's</a></li>
+</ul>
+
+<h3>Web</h3>
+<ul>
+  <li><a target="_blank" href="http://apps.ft.com">Financial Times</a></li>
+</ul>
+
+<div class="imagecenter" style="width:600px;"><img width="600" src="http://chkania.net/img/posts/ftcom_20120509.png" alt="Screenshot Financial Times" /><br />
+Web App page at the first access</div>
+
+<h3>Frameworks</h3>
+
+For a detailed overview have a look at <a href="http://en.wikipedia.org/wiki/Multiple_phone_web_based_application_framework ">wikipedia</a> and the <a href="http://www.markus-falk.com/mobile-frameworks-comparison-chart/">Mobile Frameworks Comparison Chart</a>.
+<ul>
+  <li><a href="http://phonegap.com/">PhoneGap</a></li>
+  <li><a href="http://www.sencha.com/products/touch/">Sencha Touch</a></li>
+  <li><a href="http://www.appcelerator.com/platform/titanium-sdk">Titanium</a></li>
+  <li><a href="http://jquerymobile.com/">jQuery mobile</a></li>
+  <li><a href="http://dojotoolkit.org/">Dojo</a></li>
+  <li><a href="http://sproutcore.com/">Sproutcore</a></li>
+</ul>
+
+<h3>Ressources</h3>
+<ul>
+<li><a href="http://buildmobile.com/native-hybrid-or-web-apps/">Native, Hybrid or Web Apps?</a></li>
+<li><a href="http://mobile.tutsplus.com/tutorials/iphone/iphone-web-app-meta-tags/">Configuring an iPhone Web App With Meta Tags</a></li>
+<li><a href="http://www.luscarpa.com/development/make-your-website-an-iphone-web-application/">Make your website an iPhone web application</a></li>
+<li><a href="http://www.readwriteweb.com/">Hybrid HTML5 Apps Are Less Costly to Develop Than Native</a></li>
+<li><a href="http://venturebeat.com/2011/07/08/hybrid-mobile-apps-take-off-as-html5-vs-native-debate-continues/">Hybrid mobile apps take off as HTML5 vs. native debate continues</a></li>
+<li><a href="http://www.microsoft.com/en-us/news/press/2011/jun11/06-01win8previewpr.aspx">Touch-centric interface and application experience designed as a natural reflection of the device</a></li>
+<li><a href="http://www.forbes.com/sites/fredcavazza/2011/09/27/mobile-web-app-vs-native-app-its-complicated/">Mobile Web App vs. Native App? It's Complicated</a></li>
+<li><a href="http://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariHTMLRef/Introduction.html#//apple_ref/doc/uid/30001261-SW1">Safari HTML Reference</a></li>
+</ul>
