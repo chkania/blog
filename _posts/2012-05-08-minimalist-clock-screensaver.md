@@ -8,7 +8,7 @@ flattr: true
 comments: true
 categories: tech
 tags: [en, mac]
-excerpt: Minimalistic screen savers are fun. Another member of this family is "Minimalist Clock Screensaver"
+excerpt: Minimalistic screen savers are fun. Another member of this family is &quot;Minimalist Clock Screensaver&quot;
 ---
 
 After I have eliminated Flash from my MacBook Air my current favorite [Fliqio](http://9031.com/goodies/#fliqlo) does not work anymore.
