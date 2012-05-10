@@ -190,6 +190,15 @@ border-right: 1px solid silver;
     color: #404040;
 }
 
+.imagecenter  { 
+  font-size: 0.8em;
+  font-styke: italic;
+  text-align: center;
+  border: 1px solid black;
+  margin: auto;
+  background-color: #D8D8D8;
+}
+
 p, pre {
 padding: 5px 10px;
 margin:0px;
