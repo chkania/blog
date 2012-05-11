@@ -30,9 +30,9 @@ description: About tech and live
 
 					   <p><a hre="{{site.url}}{{post.url}}">Read original article and explore the comments</a></p>
 
-<p><a href="http://flattr.com/thing/642469/Christoph-Kania" target="_blank">
-<img src="http://api.flattr.com/button/flattr-badge-large.png"
-    alt="Flattr this" title="Flattr this" border="0" /></a></p>
+                                           <p><a href="http://flattr.com/thing/642469/Christoph-Kania" target="_blank">
+					   <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></p>
+					   <br>This work by Christoph Kania is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/>Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
 				  ]]>
 
 				</description>
