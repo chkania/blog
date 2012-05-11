@@ -4,6 +4,7 @@ _cache/
 bin/
 tmp/
 docs/
+tag/
 .svn/
 .hg
 .svn

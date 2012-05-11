@@ -8,3 +8,5 @@ locale:      en
 lsi:         true
 url:         http://chkania.net
 postimgurl:  http://chkania.net/img/posts
+tag_page_layout: tag_page
+tag_page_dir: tag

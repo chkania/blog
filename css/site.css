@@ -266,3 +266,27 @@ font-size: 0.8em;
     color: #993300;
 }
 
+#tag-cloud {
+    margin-right: 2px;
+    margin-top: 20px;
+}
+
+#tag-cloud .set-1{
+    font-size: 0.7em
+}
+
+#tag-cloud .set-2{
+    font-size: 0.8em
+}
+
+#tag-cloud .set-3{
+    font-size: 0.9em
+}
+
+#tag-cloud .set-4{
+    font-size: 1.0em
+}
+
+#tag-cloud .set-5{
+    font-size: 1.1em
+}
