@@ -3,7 +3,6 @@ destination: _site
 permalink:   pretty
 pygments:    true
 markdown:    maruku
-permalink:   date
 locale:      en
 lsi:         true
 url:         http://chkania.net
